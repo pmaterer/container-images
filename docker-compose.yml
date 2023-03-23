@@ -1,0 +1,7 @@
+services:
+  ansible-debian11:
+    image: ghcr.io/pmaterer/ansible-debian11:latest
+    build: ansible-debian11/
+    deploy:
+      labels:
+        org.opencontainers.image.source: https://github.com/pmaterer/container-images
